@@ -11,7 +11,7 @@
 
 <body>
 
-    <h2>Employees</h2>
+    <h1 class="justify-content-center bg-info text-center" style="height: 100px;">Welcome to the Team!</h1>
     <main class="d-flex container-fluid my-3 justify-content-center">
 
         <div class="card align-items-center col-3">
@@ -24,10 +24,6 @@
                 <li class="list-group-item">Email: ${email}</li>
                 <li class="list-group-item">Office number: ${office}</li>
             </ul>
-            <div class="card-body">
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
-            </div>
         </div>
 
         <div class="card align-items-center col-3">
@@ -38,12 +34,20 @@
             <ul class="list-group list-group-flush">
                 <li class="list-group-item">ID: ${id}</li>
                 <li class="list-group-item">Email: ${email}</li>
-                <li class="list-group-item">Office number: ${office}</li>
+                <li class="list-group-item">GitHub: ${github}</li>
             </ul>
+        </div>
+
+        <div class="card align-items-center col-3">
+            <h4 class="card-header bg-primary text-white container-fluid">${name}</h4>
             <div class="card-body">
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
+                <h5 class="card-title bg-primary text-white container-fluid">${role}</h5>
             </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">ID: ${id}</li>
+                <li class="list-group-item">Email: ${email}</li>
+                <li class="list-group-item">School: ${school}</li>
+            </ul>
         </div>
 
         <!--  -->
