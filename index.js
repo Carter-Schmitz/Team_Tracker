@@ -1,7 +1,7 @@
 // Declaring packages needed for application
 const fs = require('fs')
 const inquirer = require('inquirer')
-const generateHtml = require('./generateHTML')
+const generateHTML = require('./generateHTML')
 
 // Object constructors for roles
 const Manager = require('./lib/Manager');
