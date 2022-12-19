@@ -3,7 +3,7 @@
 }
 
 :root {
-    --primary: lightslategray;
+    --primary: rgb(31, 143, 255);
     --secondary: white;
 }
 
@@ -25,11 +25,13 @@ body {
 .card-header {
     background-color: var(--primary);
     color: var(--secondary);
+    box-shadow: 10px 10px lightblue;
 }
 
 .card-body {
     background-color: var(--secondary);
     color: var(--primary);
+    box-shadow: 10px 10px lightblue;
 }
 
 .container {
@@ -37,4 +39,9 @@ body {
     justify-content: space-evenly;
     display: flex;
     
+}
+
+.card-header:hover{
+    background-color: rgb(51, 201, 247);
+    color: black;
 }
