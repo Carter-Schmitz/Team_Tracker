@@ -34,3 +34,6 @@
   Have questions about this project?  
   #GitHub https://github.com/Carter-Schmitz  
   #Email carterschmitz95@gmail.com
+  
+  ##Video Walkthrough
+  https://drive.google.com/file/d/1HlHBVMIYJgWCbvP278iSt7uSxNJ0Liy9/view
