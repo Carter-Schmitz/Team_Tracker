@@ -15,6 +15,9 @@
   ## Description 
   A tool to enter information about your development team and generate a web page. The user is prompted in their command line for information about the teams manager, and then concurrent questions about engineers and interns. Questions are tailored based on the role of the employee. Engineers are asked for their github profile, and interns are asked what school they are attending. Once all the questions have been answered, the application generates a web page with cards for each employee.
 
+Screenshot: ![teamtracker](https://user-images.githubusercontent.com/113850230/224888624-c776d5bd-3004-4865-bba0-62a59fd53a96.PNG)
+
+
   ## Installation 
   Inquirer is required for this application, however it is already stored in the repository. If installation is necessary, type "npm i install inquirer@8.2.4" into your command line
 
